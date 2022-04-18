@@ -27,10 +27,6 @@ li {
     color: #E5E7EB;
 }
 
-#secondary-text {
-    margin: 0;
-}
-
 .push-item {
     margin-left: auto;
 }
@@ -40,14 +36,19 @@ li {
     color: #F9FAF8;
 }
 
-#hero-text {
-    width: 50%;
-    align-items: center;
-    padding-top: 25px;
+#hero {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 35px;
 }
 
-#hero-image {
-    margin-left: 60%;
+.hero-text {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.hero-text .hero-image {
+    flex: 1;
 }
 
 #main-text {
@@ -55,6 +56,19 @@ li {
     color: #F9FAF8;
     font-weight: 900;
     margin: 0;
+}
+
+#secondary-text {
+    margin: 0;
+    display: inline;
+}
+
+#main-text, #secondary-text {
+    width: 50%;
+}
+
+.hero-image {
+    margin-left: 50px;
 }
 
 #second-section {
@@ -98,13 +112,22 @@ i {
 }
 
 #cta-section {
-    background-color: #E5E7EB;
+    width: auto;
+    height: 150px;
+    background-color: #1F2937;
+    padding: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+#call-card {
+    padding: 35px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: inline;
 }
 
 #call-button {
-    background-color: #3882F6;
-}
-
-footer {
-    background-color: #1F2937;
+    margin-left: 15px;
+    border-radius: 15px;
 }
