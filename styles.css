@@ -5,6 +5,7 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 #top-section {
@@ -15,11 +16,15 @@ a {
 #top-section ul {
     list-style: none;
     display: flex;
-    margin: 0 25px;
+    margin: 0 10px;
+}
+
+#topnav {
+    padding-top: 10px;
 }
 
 li {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 .headers {
@@ -43,8 +48,9 @@ li {
 }
 
 .hero-text {
-    width: 50%;
+    width: 40%;
     padding-left: 50px;
+    margin-left: 25px;
 }
 
 .hero-text .hero-image {
@@ -63,12 +69,11 @@ li {
     display: inline;
 }
 
-#main-text, #secondary-text {
-    width: 50%;
-}
-
 .hero-image {
-    margin-left: 50px;
+    margin: 10px 0 0 80px;
+    background-image: url("sunrise.jpg");
+    width: 375px;
+    height: 200px;
 }
 
 #second-section {
@@ -114,20 +119,32 @@ i {
 #cta-section {
     width: auto;
     height: 150px;
-    background-color: #1F2937;
+    background-color: #E5E7EB;
     padding: 100px;
-    display: flex;
-    gap: 20px;
 }
 
 #call-card {
     padding: 35px;
     background-color: #3882F6;
     border-radius: 15px;
-    display: inline;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#cta-text {
+    width: 70%;
 }
 
 #call-button {
     margin-left: 15px;
-    border-radius: 15px;
+}
+
+.button {
+    border-radius: 16px;
+    border-color: white;
+    color: white;
+    background-color: #3882F6;
+    padding: 10px 20px;
+    font-weight: 900;
 }
