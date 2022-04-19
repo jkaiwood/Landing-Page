@@ -33,7 +33,7 @@ li {
 }
 
 .push-item {
-    margin-left: auto;
+    margin-left: 50%;
 }
 
 #logo {
@@ -47,13 +47,13 @@ li {
     margin-top: 35px;
 }
 
-.hero-text {
+#hero-text {
     width: 40%;
-    padding-left: 50px;
+    padding-left: 70px;
     margin-left: 25px;
 }
 
-.hero-text .hero-image {
+#hero-text #hero-image {
     flex: 1;
 }
 
@@ -69,8 +69,8 @@ li {
     display: inline;
 }
 
-.hero-image {
-    margin: 10px 0 0 80px;
+#hero-image {
+    margin: 5px 0 0 100px;
     background-image: url("sunrise.jpg");
     width: 375px;
     height: 200px;
@@ -147,4 +147,6 @@ i {
     background-color: #3882F6;
     padding: 10px 20px;
     font-weight: 900;
+    margin-left: auto;
+    color: white;
 }
